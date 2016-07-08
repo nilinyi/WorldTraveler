@@ -13,6 +13,7 @@
 		8FE1B01E1D306AE4001D63F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1B01C1D306AE4001D63F6 /* Main.storyboard */; };
 		8FE1B0201D306AE4001D63F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1B01F1D306AE4001D63F6 /* Assets.xcassets */; };
 		8FE1B0231D306AE4001D63F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1B0211D306AE4001D63F6 /* LaunchScreen.storyboard */; };
+		8FE1B02B1D306B69001D63F6 /* FakeLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1B02A1D306B69001D63F6 /* FakeLocation.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8FE1B01F1D306AE4001D63F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FE1B0221D306AE4001D63F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE1B0241D306AE4001D63F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE1B02A1D306B69001D63F6 /* FakeLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FakeLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8FE1B0121D306AE4001D63F6 /* WorldTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				8FE1B02A1D306B69001D63F6 /* FakeLocation.gpx */,
 				8FE1B0161D306AE4001D63F6 /* AppDelegate.h */,
 				8FE1B0171D306AE4001D63F6 /* AppDelegate.m */,
 				8FE1B0191D306AE4001D63F6 /* ViewController.h */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE1B0231D306AE4001D63F6 /* LaunchScreen.storyboard in Resources */,
+				8FE1B02B1D306B69001D63F6 /* FakeLocation.gpx in Resources */,
 				8FE1B0201D306AE4001D63F6 /* Assets.xcassets in Resources */,
 				8FE1B01E1D306AE4001D63F6 /* Main.storyboard in Resources */,
 			);
