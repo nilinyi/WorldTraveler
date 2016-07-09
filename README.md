@@ -28,5 +28,8 @@ So, what you need to do is to find the two coordinates in your screen. You can e
 You can see your mouse will move immediately to the (242,670). After several trials, I think you can easily find the correct coordinates.  
 <img src="5.png" width="400">
 
+Then, change the python code and run the script!   
+<img src="7.png" width="400">   
+
 ##Warning
 This program is just for fun. Do not use in Pokemon! 
