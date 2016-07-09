@@ -30,6 +30,6 @@ You can see your mouse will move immediately to the (242,670). After several tri
 
 Then, change the python code and run the script!   
 <img src="7.png" width="400">   
-
+<img src="8.png" width="400">   
 ##Warning
 This program is just for fun. Do not use in Pokemon! 
