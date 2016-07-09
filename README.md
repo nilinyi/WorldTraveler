@@ -18,7 +18,7 @@ Now! Don't plug out your device! Just press your home button and open a social m
 
 ## Customize your location
 Open FakeLocation.gpx in Xcode and change the value of "lat" and "lon" in this file. Save the file and do the last step above again.
-<img src="4.png" width="250">
+<img src="4.png">
 
 ## Reatin the location
 In some circumstances, your location will be changed immediately by some other apps because the last step above just change be the location for only once. Thus, you need some trick to keep your location! Here is the trick, I write a script to repeat the last step above by stimulating the mouse clicking. **And here is the most awesome feature**, if you do this, it means you are keeping reading your location file and if you write another program to manipulate this location file (listen your keyboard to change the lat and lon in the file?), you are technically moving! Image that you are using this trick in Pokemon.  
