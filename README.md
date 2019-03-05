@@ -20,16 +20,5 @@ Now! Don't plug out your device! Just press your home button and open a social m
 Open FakeLocation.gpx in Xcode and change the value of "lat" and "lon" in this file. Save the file and do the last step above again.
 <img src="4.png">
 
-## Advanced: Hold the location
-In some circumstances, your location will be changed immediately by some other apps because the last step above just read the location file and change be the location for only once. Thus, you need a trick to keep your location! Here is the trick, I write a script to repeat the last step above by stimulating the mouse clicking. **And here is the most awesome feature**, if you do this, it means you are keeping reading your location file and keeping changing your location and if you write another program to manipulate this location file (listen your keyboard to change the lat and lon in the file?), you are technically moving! Image that you are using this trick in Pokemon.  
-So, what you need to do is to find the two coordinates in your screen. You can easily pinpoint your coordinate by running "./autoClicker -x [gussedXCordinate] -y [gussedXCordinate]" in your terminal. For example, 
-<img src="6.png" width="400">  
-
-You can see your mouse will move immediately to the (242,670). After several trials, I think you can easily find the correct coordinates.  
-<img src="5.png" width="400">
-
-Then, change the python code and run the script!   
-<img src="7.png" width="400">   
-<img src="8.png" width="400">   
-## Warning
-This program is just for fun. Do not use in Pokemon! 
+## Advanced: Simulate continuous GPS change
+Your location right now is static. Because Xcode just simply read and set the location from the location file. How to simulate that we're actually moving, a.k.a, chaning the location continuously? It's very simple actually. We just need a script to keep reading and loading the location file, which can be updated in the background by other services.
